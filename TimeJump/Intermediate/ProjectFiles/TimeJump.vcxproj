@@ -104,9 +104,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\TimeJump-Win32-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -132,9 +132,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\TimeJump-Win64-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
@@ -149,9 +149,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJumpEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJumpEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJumpEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJumpEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJumpEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJumpEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>C:\Program Files\Epic Games\4.10\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
@@ -166,9 +166,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\TimeJump.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
@@ -194,9 +194,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\TimeJump.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
@@ -211,9 +211,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJumpEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJumpEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJumpEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJumpEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJumpEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJumpEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>C:\Program Files\Epic Games\4.10\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
@@ -228,9 +228,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\TimeJump-Win32-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
@@ -245,9 +245,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TimeJump Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" TimeJump Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" TimeJump Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\TimeJump-Win64-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
