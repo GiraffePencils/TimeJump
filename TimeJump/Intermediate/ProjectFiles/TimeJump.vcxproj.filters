@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TimeJump.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{7F710607-2505-413D-8842-CC52F5A39AE5}</UniqueIdentifier>
+			<UniqueIdentifier>{FF65E9D2-BED1-4BE3-9D53-3A42F23FFC22}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TimeJump.Target.cs">
 			<Filter>Source</Filter>
@@ -13,9 +13,12 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{3609563D-C012-4475-80AC-608D27E38C88}</UniqueIdentifier>
+			<UniqueIdentifier>{712A6E53-8A68-475A-8668-20796320F82F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\Config\DefaultEngine.ini">
@@ -24,8 +27,11 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\TimeJump">
-			<UniqueIdentifier>{3E231609-1912-418B-8287-7E4FA0DE7B87}</UniqueIdentifier>
+			<UniqueIdentifier>{78F5173F-5F00-4D13-91ED-C16069A09E44}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TimeJump\TimeJump.Build.cs">
 			<Filter>Source\TimeJump</Filter>
@@ -36,10 +42,28 @@
 		<ClInclude Include="..\..\Source\TimeJump\TimeJump.h">
 			<Filter>Source\TimeJump</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\TimeJump\TimeJumpCharacter.cpp">
+			<Filter>Source\TimeJump</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TimeJump\TimeJumpCharacter.h">
+			<Filter>Source\TimeJump</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\TimeJump\TimeJumpGameMode.cpp">
 			<Filter>Source\TimeJump</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TimeJump\TimeJumpGameMode.h">
+			<Filter>Source\TimeJump</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TimeJump\TimeJumpHUD.cpp">
+			<Filter>Source\TimeJump</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TimeJump\TimeJumpHUD.h">
+			<Filter>Source\TimeJump</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TimeJump\TimeJumpProjectile.cpp">
+			<Filter>Source\TimeJump</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TimeJump\TimeJumpProjectile.h">
 			<Filter>Source\TimeJump</Filter>
 		</ClInclude >
 	</ItemGroup>

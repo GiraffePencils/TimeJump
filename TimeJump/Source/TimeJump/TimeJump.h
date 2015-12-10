@@ -1,6 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
-#pragma once
+#ifndef __TIMEJUMP_H__
+#define __TIMEJUMP_H__
 
-#include "Engine.h"
+#include "EngineMinimal.h"
 
+
+#endif
