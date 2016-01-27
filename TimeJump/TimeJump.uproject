@@ -2,12 +2,5 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.10",
 	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "TimeJump",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Description": ""
 }
